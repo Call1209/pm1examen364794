@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="24dp" android:background="@android:color/white">
+    <!--  Botón Atrás  -->
+    <Button
+        android:id="@+id/btnAtras"
+        android:text="ATRÁS"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+    <!--  Campo para ingresar número  -->
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:hint="Ingrese número"
+        android:inputType="phone"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@android:color/darker_gray"/>
+    <!--  Botón llamada con ícono  -->
+    <ImageButton
+        android:id="@+id/btnLlamar"
+        android:layout_width="101dp"
+        android:layout_height="89dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="77dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Llamar"
+        android:src="@android:drawable/ic_menu_call"
+        android:tint="@android:color/holo_green_dark" />
+</RelativeLayout>

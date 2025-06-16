@@ -1,0 +1,10 @@
+<resources>
+    <string name="btn_atras">Atrás</string>
+    <string name="hint_buscar">Buscar contacto...</string>
+    <string name="btn_actualizar">Actualizar</string>
+    <string name="btn_ver_imagen">Ver Imagen</string>
+    <string name="btn_compartir">Compartir</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="app_name">PM1 Examen</string>
+
+</resources>
